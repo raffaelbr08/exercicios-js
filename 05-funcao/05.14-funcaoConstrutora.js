@@ -19,12 +19,15 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
 
 const uno = new Carro
 uno.acelerar()
-console.log(uno.getVelocidadeAtual())
+console.log(uno.getVelocidadeAtual()) //5
 
 const ferrari = new Carro(350, 20)
 ferrari.acelerar()
 ferrari.acelerar()
 ferrari.acelerar()
-console.log(ferrari.getVelocidadeAtual())
+console.log(ferrari.getVelocidadeAtual()) // 60
 
-console.log(ferrari)
+console.log(ferrari) // Carro { acelerar: [Function], getVelocidadeAtual: [Function] }
+
+console.log(typeof Carro) // function
+console.log(typeof ferrari) //object
