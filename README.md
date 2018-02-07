@@ -7,6 +7,9 @@
 * [JSON for the ES5 era.](http://json5.org/)
 * [JSONLint - The JSON Validator](https://jsonlint.com/)
 
+### Testar código Javascript:
+* [JSfiddle](https://jsfiddle.net/)
+
 ## Frameworks JS (Backend)
 * [Express](http://expressjs.com/)
 * [Sails](https://sailsjs.com/)
